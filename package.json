@@ -1,0 +1,28 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-stem/LS_JS130_Lesson4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-stem/LS_JS130_Lesson4/issues"
+  },
+  "homepage": "https://github.com/t-stem/LS_JS130_Lesson4#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2"
+  }
+}
